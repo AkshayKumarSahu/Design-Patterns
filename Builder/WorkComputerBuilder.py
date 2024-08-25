@@ -12,11 +12,12 @@ class WorkComputerBuilder(ComputerBuilder):
         self.ram = 0
 
     def set_cpu(self):
-        self.cpu = 4
+        self.cpu = cpu
 
     def set_ram(self):
-        self.ram = 8
-
+        self.ram = ram
+    def set_gpu(self):
+        self.gpu = gpu
     def set_storage(self):
         self.storage = 1024
 

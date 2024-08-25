@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8511b6d-de59-4ee8-b1b8-ce69a7898869" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DesignPattens.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/Computer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/ComputerBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/ComputerDirector.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/GamingComputerBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/WorkComputerBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/main.py" afterDir="false" />
+    <list default="true" id="e8511b6d-de59-4ee8-b1b8-ce69a7898869" name="Changes" comment="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/ComputerDirector.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/ComputerDirector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Builder/WorkComputerBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/Builder/WorkComputerBuilder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,14 +94,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724595594442</updated>
-      <workItem from="1724595595920" duration="3768000" />
+      <workItem from="1724595595920" duration="6015000" />
     </task>
+    <task id="LOCAL-00001" summary="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer">
+      <option name="closed" value="true" />
+      <created>1724600502716</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724600502716</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/DesignPattens$main.coverage" NAME="main Coverage Results" MODIFIED="1724599935107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Builder" />
+    <SUITE FILE_PATH="coverage/DesignPattens$main.coverage" NAME="main Coverage Results" MODIFIED="1724602811989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Builder" />
   </component>
 </project>
