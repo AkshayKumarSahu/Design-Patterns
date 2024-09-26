@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8511b6d-de59-4ee8-b1b8-ce69a7898869" name="Changes" comment="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer">
-      <change afterPath="$PROJECT_DIR$/Singleton/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Singleton/main.py" afterDir="false" />
+    <list default="true" id="e8511b6d-de59-4ee8-b1b8-ce69a7898869" name="Changes" comment="implemented singleton pattern">
+      <change afterPath="$PROJECT_DIR$/Observer/Observers/Display.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/Observers/Observer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/Observers/Zomato.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/Observers/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/Subject/Subject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/Subject/WeatherStation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/Observer/Observer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/Observer/Swiggy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/Observer/Zomato.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/Observer/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/Subject/Subject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/Subject/WeatherConcreteSubject.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/Subject/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Observer2/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +66,8 @@
   &quot;keyToString&quot;: {
     &quot;Python.main (1).executor&quot;: &quot;Debug&quot;,
     &quot;Python.main (2).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (3).executor&quot;: &quot;Run&quot;,
+    &quot;Python.main (4).executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -62,7 +79,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.main (2)">
+  <component name="RunManager" selected="Python.main (4)">
     <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPattens" />
       <option name="ENV_FILES" value="" />
@@ -109,6 +126,52 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="main (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Observer" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observer/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (4)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DesignPattens" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Observer2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Observer2/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DesignPattens" />
       <option name="ENV_FILES" value="" />
@@ -135,6 +198,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (4)" />
+        <item itemvalue="Python.main (3)" />
         <item itemvalue="Python.main (2)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
@@ -163,7 +228,8 @@
       <workItem from="1725885759101" duration="3329000" />
       <workItem from="1726165523111" duration="2560000" />
       <workItem from="1726927301642" duration="2630000" />
-      <workItem from="1726998860340" duration="1057000" />
+      <workItem from="1726998860340" duration="8529000" />
+      <workItem from="1727103457674" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer">
       <option name="closed" value="true" />
@@ -181,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726167329651</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="implemented singleton pattern">
+      <option name="closed" value="true" />
+      <created>1727000059166</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727000059166</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,12 +263,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemeted Builder Design pattern&#10;for building Gaming Computer and Work Computer" />
+    <MESSAGE value="implemented singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented singleton pattern" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Design_Patterns$main__3_.coverage" NAME="main (3) Coverage Results" MODIFIED="1727104378106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Observer" />
     <SUITE FILE_PATH="coverage/DesignPattens$main.coverage" NAME="main Coverage Results" MODIFIED="1724602811989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Builder" />
     <SUITE FILE_PATH="coverage/Design_Patterns$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1726167272140" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Factory" />
+    <SUITE FILE_PATH="coverage/Design_Patterns$main__4_.coverage" NAME="main (4) Coverage Results" MODIFIED="1727104397281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Observer2" />
     <SUITE FILE_PATH="coverage/Design_Patterns$main.coverage" NAME="main Coverage Results" MODIFIED="1726167215443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Builder" />
-    <SUITE FILE_PATH="coverage/Design_Patterns$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1726999933051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singleton" />
+    <SUITE FILE_PATH="coverage/Design_Patterns$main__2_.coverage" NAME="main (2) Coverage Results" MODIFIED="1727004397438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Singleton" />
   </component>
 </project>
